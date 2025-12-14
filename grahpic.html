@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Graphic Profile</title>
+    <style> 
+        body{ 
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;}
+            .container {
+                padding: 20px;
+            }
+            .card {
+                background: gray;
+                padding: 25px;
+                margin-bottom: 25px;
+                border-radius: 10px;
+            }
+            .box-1 .box-2 .box-3 .box-4 .box-5 {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                justify-content: center;
+            }
+            nav{
+                margin-right: 15px;
+            }
+            table th td {
+                border: 2px solid;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            input, textarea{
+                width: 100px;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid blue;
+            }
+            button{
+                padding: 10px 15px;
+                border: none;
+                background: wheat;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            footer{
+                margin-top: 20px;
+                text-align: center;
+            }
+        
+       
+       
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <header class="card">
+        <img class="avatar" src="https://via.placeholder.com/200.png?text=Your+photo" alt="Your photo">
+      
+        <nav> 
+     <div class="box 1"> 
+    <h1 id="your name">MAHDI AKINDELE</h1>
+    <h2>My Bio</h2>
+    <p>I'm passionate graphic designer with growing skills in UI/UX and a strong interest in expanding into full-stack development.<br/>  
+            I'm dedicated to education, Islamic studies, and creative learning projects especially designing materials for children and community programs.<br/>
+            I'm commitment, consistency, and desire to improve, i'm continues to build my tech abilities while contributing to meaningful projects in design,<br/> 
+            teaching, and development.</p>
+            <h2 >ABOUT ME</h2>
+            
+            <a href="#profile">Profile</a>
+            <a href="#Hobbies">Hobbies</a>
+            <a href="Friends">Friends</a>
+            <a href="contact">contact</a>
+            </nav>
+     </div>
+    </div>
+    </header>
+    <div class="box 2">
+            <section class="card" id="Profile">
+                <p class="section-title">About me</p>
+                <p> Hello i'm <strong id="display-name">MUHAMMAD MAHDI AKINDELE</strong>
+         i will use this section to write 4-6 senteces about myself. I'm learning html </p>
+            <hr style="margin: 14px;"
+            <p class="section-title">Quick Links</p>
+           <ul>
+           <li><a href="http://www.goggle.com" target="_blank" title="goes to goggle">goggle</a></li>
+           <li><a href="http://www.youtube.com" target="_blank" title="goes to youtube">youtube</a></li>
+           <li><a href="http://wa.me/" target="_blank" title="goes to whatsaap"> whatsaap</a></li>
+           </ul>
+           </section>
+            </div>
+           <div class="box 3">
+           <section class="card" id="Hobbies" style="margin-top:16px;">
+           <p class="section-title">Hobbies</p>
+           <ul class="Hobbies">
+            <li>books</li>
+            <li>reading</li>
+           <li>angry</li>
+           </ul>
+           </section>
+           </div>
+           <div>
+           <section class="card" id="Friends style="margin-top:16px>
+           <p class="section-title">Friends</p>
+           <table>
+            <thead>
+                <tr><th>Name</th><th>Age</th><th>Number</th></tr>
+                
+            </thead>
+            <tbody>
+                <tr><td>Mufasir</td><td>20</td><td>09076384677</td></tr>
+               <tr><td>Abdul Roheem</td><td>23</td><td>08055915102</td></tr>
+               <tr><td>Abdul Rahmon</td><td>27</td><td>090746182619</td></tr>
+            </tbody>
+           </table>
+        </section>
+        </main>
+        </div>
+
+        <div class="box 4">
+            <aside>
+                <section class="card">
+                    <p class="section-title">Contact me</p>
+                    <form id="contact" action="#" onsubmit="alert('form submitted - this is a demo.'); return false;">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Your Name"><hr>
+                        <label for="email">Email</label>
+                        <input id="email" type="text" placeholder="you@example.com"><hr>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" type="text" placeholder="write a short message"></textarea><hr>
+                        <button type="submit">Send</button>
+                    </form>
+                </section>
+            </aside>
+                </div>
+
+                <div class="box 5">
+                <section class="card" 
+                style="margin: 16px;">
+                <p class="section-title">Profile Details</p>
+                <p><strong>Location:</strong> Your city, country</p>
+                <p><strong>Learning:</strong> Html (week 1)</p>
+                <p><strong>Goals:</strong> Learn CSS, Build small project</p>
+                </section>
+            </aside>
+            </div>
+            
+
+            <footer>
+                <small>Made by you - fill this template and change anything. Good luck with html!</small>
+            </footer>
+
+
+        </nav>
+
+</body>
+</html>
